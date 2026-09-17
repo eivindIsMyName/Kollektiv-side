@@ -3,6 +3,14 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-.a {
+.tittel-farge {
   color: #00B7FF;
+}
+
+.undertittel-farge {
+  color: #FF69B4;
+}
+
+.lighter-background{
+  background-color: #5b5c5d;
 }
