@@ -15,6 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      # FIX: Install BeautifulSoup4 so Python can use it
+      - name: Install Dependencies
+        run: pip install beautifulsoup4
+
       - name: Rotate Content Across IDs 1 to 8
         shell: python
         run: |
