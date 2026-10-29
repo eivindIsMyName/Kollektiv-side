@@ -25,7 +25,7 @@ jobs:
           import sys
           from bs4 import BeautifulSoup
 
-          file_path = "kollektiv/index.html"
+          file_path = "index.html"
 
           try:
               # 1. Load the HTML file
